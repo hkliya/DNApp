@@ -15,6 +15,7 @@
 		4F6EDC581CC4F7A300D33745 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F6EDC561CC4F7A300D33745 /* LaunchScreen.storyboard */; };
 		4F6EDC631CC4F7A300D33745 /* DNAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6EDC621CC4F7A300D33745 /* DNAppTests.swift */; };
 		4F6EDC6E1CC4F7A300D33745 /* DNAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6EDC6D1CC4F7A300D33745 /* DNAppUITests.swift */; };
+		4F6EDC7C1CC50A4200D33745 /* Spring in Resources */ = {isa = PBXBuildFile; fileRef = 4F6EDC7B1CC50A4200D33745 /* Spring */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4F6EDC691CC4F7A300D33745 /* DNAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F6EDC6D1CC4F7A300D33745 /* DNAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNAppUITests.swift; sourceTree = "<group>"; };
 		4F6EDC6F1CC4F7A300D33745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F6EDC7B1CC50A4200D33745 /* Spring */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Spring; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		4F6EDC491CC4F7A300D33745 /* DNApp */ = {
 			isa = PBXGroup;
 			children = (
+				4F6EDC7B1CC50A4200D33745 /* Spring */,
 				4F6EDC4A1CC4F7A300D33745 /* AppDelegate.swift */,
 				4F6EDC4C1CC4F7A300D33745 /* ViewController.swift */,
 				4F6EDC4E1CC4F7A300D33745 /* Main.storyboard */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F6EDC581CC4F7A300D33745 /* LaunchScreen.storyboard in Resources */,
+				4F6EDC7C1CC50A4200D33745 /* Spring in Resources */,
 				4F6EDC551CC4F7A300D33745 /* Assets.xcassets in Resources */,
 				4F6EDC501CC4F7A300D33745 /* Main.storyboard in Resources */,
 			);
@@ -486,6 +490,7 @@
 				4F6EDC741CC4F7A300D33745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F6EDC751CC4F7A300D33745 /* Build configuration list for PBXNativeTarget "DNAppTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +499,7 @@
 				4F6EDC771CC4F7A300D33745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F6EDC781CC4F7A300D33745 /* Build configuration list for PBXNativeTarget "DNAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +508,7 @@
 				4F6EDC7A1CC4F7A300D33745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
